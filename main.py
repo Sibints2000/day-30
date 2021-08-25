@@ -18,6 +18,8 @@
 height = float(input("Height: "))
 weight = float(input("Weight: "))
 
+bmi = weight / height * height
+
 
 # Key Error
 # a_dictionary = {"key: "value"}
