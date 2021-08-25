@@ -8,6 +8,8 @@ except FileNotFoundError:
     file.write("Something")
 except KeyError as error_message:
     print(f"The key {error_message} does not exist.")
+else:
+
 
 # Key Error
 # a_dictionary = {"key: "value"}
