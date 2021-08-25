@@ -2,7 +2,7 @@
 try:
     file = open("a_file.txt")
     a_dictionary = {"key": "value"}
-    print(a_dictionary["sdfsdf"])
+    print(a_dictionary["key"])
 except FileNotFoundError:
     file = open("a_file.txt", "w")
     file.write("Something")
