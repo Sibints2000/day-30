@@ -12,8 +12,7 @@ else:
     content = file.read()
     print(content)
 finally:
-    file.close()
-    print("File was closed.")
+    raise TypeError
 
 
 # Key Error
