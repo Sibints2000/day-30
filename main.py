@@ -11,6 +11,8 @@ except KeyError as error_message:
 else:
     content = file.read()
     print(content)
+finally:
+
 
 # Key Error
 # a_dictionary = {"key: "value"}
