@@ -18,7 +18,8 @@
 height = float(input("Height: "))
 weight = float(input("Weight: "))
 
-bmi = weight / height * height
+bmi = weight / (height * height)
+print(bmi)
 
 
 # Key Error
