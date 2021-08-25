@@ -1,2 +1,4 @@
-with open("a_file.txt") as file:
-    file.read()
+# File not found
+
+# with open("a_file.txt") as file:
+#     file.read()
