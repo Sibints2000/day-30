@@ -9,7 +9,8 @@ except FileNotFoundError:
 except KeyError as error_message:
     print(f"The key {error_message} does not exist.")
 else:
-
+    content = file.read()
+    print(content)
 
 # Key Error
 # a_dictionary = {"key: "value"}
