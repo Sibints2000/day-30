@@ -11,3 +11,6 @@
 # fruit_list = ["Apple", "Banana", "Pear"]
 # fruit = fruit_list[3]
 
+# type Error
+# text = "abc"
+# print(text + 5)
