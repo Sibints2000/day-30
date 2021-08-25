@@ -12,7 +12,8 @@ else:
     content = file.read()
     print(content)
 finally:
-
+    file.close()
+    print("File was closed.")
 
 # Key Error
 # a_dictionary = {"key: "value"}
